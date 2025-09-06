@@ -14,7 +14,7 @@ Acest proiect implementează un server TCP folosind Node.js, care procesează ce
 ## Exemplu de utilizare
 1. Porniți serverul:
    ```powershell
-   node socket-server.js
+   node server/index.js
    ```
 2. Conectați-vă cu un client TCP (de exemplu, folosind `telnet` sau un script Python):
    ```powershell
@@ -23,7 +23,7 @@ Acest proiect implementează un server TCP folosind Node.js, care procesează ce
 3. Trimiteți un mesaj. Serverul va răspunde cu mesajul procesat (transformare la majuscule).
 
 ## Structura codului
-- `socket-server.js`: Codul sursă al serverului.
+- `server/index.js`: Codul sursă al serverului.
 - Folosește modulul `net` pentru conexiuni TCP și `worker_threads` pentru multithreading.
 
 ## Extensii posibile
